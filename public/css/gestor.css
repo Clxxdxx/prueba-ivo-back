@@ -1,0 +1,160 @@
+@font-face {
+    font-family: manrope;
+    src: url('../font/Manrope-VariableFont_wght.otf');
+}
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+.font{
+    font-family: manrope;
+}
+.color{
+    color:  #092C4C;
+}
+.title{
+    font-weight: bolder;
+}
+.btn-add-user{
+    display: flex;
+    align-items: center;
+    background-color: #092C4C;
+    color: white;
+    padding: 0px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-add-user:hover{
+    color: white;
+}
+.select{
+    background-color: #092C4C;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.select option{
+    background-color: white;
+    color: #092C4C;
+    padding: 10px 0px;
+}
+.select option:hover{
+    background-color: #092C4C;
+    color: white;
+    padding: 10px 0px;
+}
+
+.active-paso{
+    border-bottom: 2px solid #092C4C;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.non-active-paso{
+    border-bottom: 2px solid #DCECFB;
+    font-size: 25px;
+}
+
+.label-personalizado{
+    color: #092C4C;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-cancelar{
+    background-color: #092C4C;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-cancelar:hover{
+    color: white;
+
+}
+.btn-pasos{
+    display: flex;
+    align-content: center;
+    background-color: #092C4C;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-pasos:hover{
+    color: white;
+}
+.titulo-fomulario-add-usuario{
+    font-size: 20px;
+}
+.delete-btn-style{
+    border: none;
+    background-color: white;
+}
+.btn-add-servicio{
+    display: flex;
+    align-items: center;
+    background-color: #092C4C;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-add-servicio:hover{
+    color: white;
+}
+.btn-add-rol{
+    display: flex;
+    align-items: center;
+    background-color: #092C4C;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-add-rol:hover{
+    color: white;
+}
+.modal-icon{
+    color: green;
+    font-size: 50px;
+}
+.modal-style{
+    background-color: #DCECFB;
+}
+.modal-personalizado{
+    display: flex;
+    align-items: center;
+}
+.modal-footer-personalizado{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.modal-footer-personalizado a{
+    background-color: #092C4C;
+    color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.modal-footer-personalizado a{
+    color: white;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+}
+.modal-body p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.modal-header-personalizado{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
